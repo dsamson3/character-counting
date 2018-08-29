@@ -1,9 +1,9 @@
-var input = process.argv[2];
+var input = process.argv.slice(2).join('');
 
-function charSplitter(str){
+/*function charSplitter(str){
    var noSpace = str.split(" ").join('').toLowerCase();
    return noSpace
-}
+}*/
 
 
 function charCounter(str){
